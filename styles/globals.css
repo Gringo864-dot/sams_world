@@ -2,3 +2,23 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
+.form input{
+    margin: 50px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.form input:hover{
+    border-color: green;
+}
+
+.form button{
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.form button:hover{
+    transform: scale(1.5);
+    background-color: red;
+    color: white;
+}
