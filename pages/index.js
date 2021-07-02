@@ -10,6 +10,15 @@ export default function Home() {
       </Head>
 
       <Header/>
+
+      <main>
+        <h2>Whats going on bro</h2>
+        <div className="form">
+          <input name="firstname" placeholder="Firstname" />
+          <input name="lastname" placeholder="Lastname" />  
+          <button name="submit">Send</button>
+        </div>
+      </main>
     </div>
   )
 }

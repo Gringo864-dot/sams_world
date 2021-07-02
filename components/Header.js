@@ -7,7 +7,7 @@ function Header() {
 
             <div>
                 <Image 
-                    src="https://cdn5.vectorstock.com/i/1000x1000/48/44/water-letter-s-logo-icon-design-vector-22794844.jpg"
+                    src="/Images/S_logo"
                     width={40}
                     height={40}
                     layout="fixed"

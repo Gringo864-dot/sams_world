@@ -4,7 +4,8 @@ module.exports = {
     domains:[
       "links.papareact.com",
       "platform-lookaside.fbsbx.com",
-      "firebasestorage.googgleapis.com"
+      "firebasestorage.googgleapis.com",
+      "Images/S_logo.jpg"
     ],
   },
 };
