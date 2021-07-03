@@ -15,6 +15,7 @@ import {
     ShoppingCartIcon,
 } from "@heroicons/react/outline";
 
+import HeaderIcon from "./HeaderIcon";
 
 
 function Header() {
@@ -31,8 +32,17 @@ function Header() {
             <div className="flex">
                 <SearchIcon className="search_icon" />
                 <input className="input" text="text" placeholder="Search..." />
-            </div>      
+            </div>
+
+            <div className="all_icons">
+                <div>
+                    <HeaderIcon Icon={HomeIcon} />
+                </div>    
+            </div>
+
         </div>
+
+        
     )
 }
 

@@ -13,11 +13,7 @@ export default function Home() {
 
       <main>
         
-        <div className="form">
-          <input name="firstname" placeholder="Firstname" />
-          <input name="lastname" placeholder="Lastname" />  
-          <button name="submit">Send</button>
-        </div>
+       
       </main>
     </div>
   )
