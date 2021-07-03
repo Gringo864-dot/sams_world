@@ -7,7 +7,7 @@ function Header() {
 
             <div>
                 <Image 
-                    src="/Images/S_logo"
+                    src="/Images/S_logo.jpg"
                     width={40}
                     height={40}
                     layout="fixed"
