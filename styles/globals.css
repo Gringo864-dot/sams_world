@@ -2,6 +2,39 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(240, 240, 240);
+}
+
+.logo{
+    border-radius: 50%;
+}
+
+.flexbox{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.search_icon{
+    width: 30px;
+    height: 30px;
+    margin-top: 5px;
+}
+
+.input{
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
 .form input{
     margin: 50px;
     padding: 10px;
@@ -22,3 +55,4 @@
     background-color: red;
     color: white;
 }
+
