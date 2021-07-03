@@ -1,18 +1,37 @@
 import Image from "next/image";
+import {
+    BellIcon,
+    ChatIcon,
+    ChevronDownIcon,
+    HomeIcon,
+    UserGroupIcon,
+    ViweGridIcon,
+} from "@heroicons/react/solid";
+
+import {
+    FlagIcon,
+    PlayIcon,
+    SearchIcon,
+    ShoppingCartIcon,
+} from "@heroicons/react/outline";
+
+
 
 function Header() {
     return (
-        <div>
-            <h1>Gringo's World</h1>
-
+        <div className="flexbox">
             <div>
-                <Image 
-                    src="/Images/S_logo.jpg"
-                    width={40}
-                    height={40}
+                <Image className="logo" 
+                    src="/Images/sam_logo.jpg"
+                    width={70}
+                    height={70}
                     layout="fixed"
                 />
             </div>
+            <div className="flex">
+                <SearchIcon className="search_icon" />
+                <input className="input" text="text" placeholder="Search..." />
+            </div>      
         </div>
     )
 }
